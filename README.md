@@ -3,7 +3,7 @@
 Textract Text e Tables - From PDF multiple pages...
 
 
-É um serviço de OCR combinado com intiligência artificial provido pela Amazon Aws
+É um serviço de OCR combinado com inteligência artificial provido pela Amazon Aws
 Ele pode extrair texto, tabelas e formulários.
 Este projeto envolve extrair textos ou tabelas de um PDF
 Para implementar a extração de informações de um PDF o serviço Textract ocorre de forma assíncrona
