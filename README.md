@@ -20,3 +20,24 @@ Usamos o Google Colab para rodar a aplicação.
 
 Deixei no próprio código a alimentação das credenciais do serviço da Amazon.
 Tal prática não é aconselhável mas para fins didático e desenvolvimento facilitam a construçao do raciocínio
+
+
+
+Sugere-se a seguinte ordem:
+
+
+1   Criar novo Bucket
+
+2   Upload do arquivo com Texto ou Tables a ser extraído para o S3
+
+3   Listar Arquivos no S3 para ter certeza que o arquivo contendo os dados estão lá no caminho a ser informado qdo da extração
+
+4   Extrair vba do arquivo Excel (mula) (textract_texto_extrair_vba_mula.py) (serve para tables ou textos)
+
+5.1 Se for extrair textos  ir para Extrair Texto PDF (textract_texto_extraindo_Texto_PDF.py)
+
+ou
+
+5.2 Se for extrair tabelas ir para Extrair Tables PDF (textract_tables_pdf_multiple_pages_to_excel.py)
+
+
