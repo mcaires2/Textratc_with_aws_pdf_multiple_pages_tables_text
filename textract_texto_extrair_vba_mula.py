@@ -2,7 +2,7 @@
 # TEXT
 # EXTRAIR VBA_BIN PARA INCLUSÃO NO ARQUIVO EXCEL CRIADO PELO PANDAS
 # EXECUTAR SEM MODIFICAÇÕES, TUDO AUTOMÁTICO, ajustar apenas os diretórios onde estão localizado o arquivo excel .xlsm que tem a macro a ser extraída e o diretório destino do vba_bin
-# Resultado Experado se tudo der certo vai ser:
+# Resultado Esperado se tudo der certo vai ser:
 # Extracted: vbaProject.bin
 
 
